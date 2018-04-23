@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zk.baidumap.MainActivity">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/switch_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地图模式"
+            />
+        <Button
+            android:id="@+id/traffic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="交通图"
+            />
+        <Button
+            android:id="@+id/dingwei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="普通"
+            />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
